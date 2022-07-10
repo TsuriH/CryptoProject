@@ -50,3 +50,44 @@ more-info-container span {
 .wrapper .personal-image {
   align-self: center;
 }
+
+.wrapper img {
+    height: 400px;
+}
+
+header {
+    height:320px ;
+    background-image: url("./images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position:100% 740%;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+header h1 {
+    font-size: 6em;
+    font-weight: 900;
+    color: #f7f3ec
+}
+
+.btn {
+    background-color: #4B264B;
+  
+}
+
+.active {
+    background-color: #D56F5E !important;
+    font-weight: 900;
+}
+
+.nav-link {
+    color: rgb(66, 62, 62);
+    font-weight: 900;
+    font-size: 1.3em;
+}
+
+form .btn {
+    background-color: #F9AE5A !important;
+    border: none;
+}

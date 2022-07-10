@@ -1,0 +1,2 @@
+const COINS_CACHE = {}
+

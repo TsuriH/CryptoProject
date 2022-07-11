@@ -152,9 +152,12 @@ function onBackdrop() {
     //get the height off all the current body to a variable and after 
     
     document.body.style.overflow = "hidden"
+   
 
     
     document.querySelector('.backdrop').style.display = "block"
+    document.querySelector('.backdrop').style.position = "fixed"
+
 
 
 }
